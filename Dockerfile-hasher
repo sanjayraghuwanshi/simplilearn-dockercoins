@@ -1,2 +1,2 @@
-FROM  library/ruby:alpine
-RUN   gem install sinatra
+FROM  library/ruby:2.5.9-alpine3.13@sha256:5b2a11e6d0924ac69d5409c98bba3dc18f1acaa4570eddfea2874cdb7b7b67a6
+RUN   apk add build-base && gem install sinatra
