@@ -1,2 +1,2 @@
-FROM  library/python:latest
-RUN   pip install flask
+FROM  library/python:alpine
+RUN   pip install Flask
